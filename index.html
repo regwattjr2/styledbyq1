@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- SEO Optimization -->
+  <title>Styled By Q | Intentional Interior Decorating & Staging</title>
+  <meta name="description" content="Where style meets comfort, and a house becomes home. Discover intentional interior decorating, virtual design, and professional home staging by Quion Wattree.">
+  <meta name="keywords" content="interior design, interior decorating, home staging, virtual design, house styling, Quion Wattree, Styled by Q, room makeover">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="https://www.gstatic.com/images/branding/productlogos/sites_2026/v2/ico/sites_2026_16dp.ico" type="image/x-icon">
+  
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="index.css">
+  
+  <!-- Scripting Layer -->
+  <script src="app.js" defer></script>
+</head>
+<body>
+
+  <!-- Unified Navigation Header -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo" id="logoLink">
+        Styled by Q<span id="logoSubtitle">Interiors</span><span class="logo-dot">.</span>
+      </a>
+      
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-links" id="mainNavigation" role="navigation">
+        <a href="#home" class="nav-item active" id="navHome">Home</a>
+        <a href="#services" class="nav-item" id="navServices">Services</a>
+        <a href="#about" class="nav-item" id="navAbout">About</a>
+        <a href="#testimonials" class="nav-item" id="navTestimonials">Portfolio</a>
+        <a href="#contact" class="nav-item" id="navContact">Contact</a>
+      </nav>
+      
+      <!-- Mobile Hamburger Button -->
+      <button class="hamburger" id="mobileMenuToggle" aria-label="Toggle Navigation Menu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ====================================================
+       PAGE VIEW: HOME
+       ==================================================== -->
+  <div class="page-view active" id="home">
+    <section class="hero-fullbleed" style="background-image: url('images/hero_bg.jpg');">
+      <div class="hero-overlay"></div>
+      <div class="container hero-container-full">
+        <div class="hero-content-center">
+          <span class="hero-subtitle animate-fade-in">Intentional Styling & Decorating</span>
+          <h1 class="title-lg hero-title animate-fade-in">Where style meets <span class="serif-italic">comfort</span>, and a house becomes <span class="serif-italic">home</span>.</h1>
+          <div class="divider-gold center animate-fade-in"></div>
+          <p class="hero-desc animate-fade-in">Styled with intention. Designed for everyday living. I help shape warm, beautiful, and emotionally uplifting interior spaces that tell your unique story.</p>
+          <div class="hero-ctas animate-fade-in">
+            <a href="#services" class="btn btn-primary" id="heroServicesBtn">Explore Services</a>
+            <a href="#contact" class="btn btn-outline" id="heroContactBtn">Book Consultation</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scripture Callout Block -->
+    <section class="section scripture-section">
+      <div class="container">
+        <div class="quote-block">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" class="quote-icon" style="color: var(--accent-gold); margin-bottom: 24px;">
+            <path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"/>
+          </svg>
+          <p class="quote-text">“By wisdom a house is built, and through understanding it is established; through knowledge its rooms are filled with rare and beautiful treasures.”</p>
+          <span class="quote-author">Proverbs 24:3–4</span>
+          <div class="divider-gold center"></div>
+          <p class="quote-message">At <strong>Styled by Q</strong>, I bring that exact principle into every space we touch—building rooms with wisdom, shaping them with understanding, and filling them with beauty, comfort, and purpose.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Philosophy / Process Block -->
+    <section class="section">
+      <div class="container">
+        <div style="text-align: center; margin-bottom: 60px;">
+          <span class="hero-subtitle">The Design Philosophy</span>
+          <h2 class="title-md">Transforming Spaces, Lifting Hearts</h2>
+          <div class="divider-gold center"></div>
+        </div>
+        
+        <div class="pitch-grid">
+          
+          <div class="pitch-card">
+            <span class="pitch-num">01</span>
+            <h3 class="title-sm pitch-title">Curated Styling</h3>
+            <p class="pitch-desc">Intentional decorating choices designed to create warm, inviting spaces tailored to your unique personality and daily lifestyle.</p>
+          </div>
+          
+          <div class="pitch-card">
+            <span class="pitch-num">02</span>
+            <h3 class="title-sm pitch-title">Thoughtful Balance</h3>
+            <p class="pitch-desc">Harmonizing spatial layout, color schemes, and custom textures to establish physical comfort and visual balance in every corner.</p>
+          </div>
+          
+          <div class="pitch-card">
+            <span class="pitch-num">03</span>
+            <h3 class="title-sm pitch-title">Personalized Design</h3>
+            <p class="pitch-desc">A highly collaborative design process that focuses on your specific budget, schedule, and home styling aspirations.</p>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ====================================================
+       PAGE VIEW: SERVICES
+       ==================================================== -->
+  <div class="page-view" id="services">
+    <section class="section">
+      <div class="container">
+        
+        <div class="services-header">
+          <span class="hero-subtitle">Our Design Packages</span>
+          <h1 class="title-md">Bespoke Styling Services</h1>
+          <div class="divider-gold center"></div>
+          <p class="text-intro" style="margin: 0 auto;">At Styled by Q, I provide intentional interior decorating services that elevate your space through curated styling, thoughtful design choices, and a highly personalized approach to your home.</p>
+        </div>
+        
+        <div class="services-grid">
+          
+          <!-- Service Card 1 -->
+          <div class="service-card" id="serviceCardConsultation">
+            <div>
+              <div class="service-meta">
+                <span class="service-badge">In-Home or Virtual</span>
+                <span class="service-price">$200</span>
+              </div>
+              <h3 class="title-sm service-title">Decorating Consultation</h3>
+              <p class="service-desc">Perfect for clients who need expert direction, spatial ideas, and a clear styling plan before getting started on their room makeover.</p>
+            </div>
+            
+            <div class="service-inclusions">
+              <h4 class="inclusion-title">What's Included</h4>
+              <ul class="inclusion-list">
+                <li class="inclusion-item">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Up to 2 hours of professional in-home or virtual guidance
+                </li>
+                <li class="inclusion-item">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Room flow and custom layout recommendations
+                </li>
+                <li class="inclusion-item">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Color guidance and texture pairing suggestions
+                </li>
+              </ul>
+            </div>
+            
+            <a href="#contact" class="btn btn-primary btn-block">Book Consultation</a>
+          </div>
+          
+          <!-- Service Card 2 -->
+          <div class="service-card" id="serviceCardVirtual">
+            <div>
+              <div class="service-meta">
+                <span class="service-badge">Remote Styling</span>
+                <span class="service-price">$350 - $500</span>
+              </div>
+              <h3 class="title-sm service-title">Virtual Design Package</h3>
+              <p class="service-desc">Perfect for clients who want a clear, cohesive design plan and the flexibility to source and bring their space to life at their own pace.</p>
+            </div>
+            
+            <div class="service-inclusions">
+              <h4 class="inclusion-title">What's Included</h4>
+              <ul class="inclusion-list">
+                <li class="inclusion-item">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Fully customized design mood board for a single room
+                </li>
+                <li class="inclusion-item">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Curated color palette and tactile material ideas
+                </li>
+                <li class="inclusion-item">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Furniture recommendations and shopping links
+                </li>
+              </ul>
+            </div>
+            
+            <a href="#contact" class="btn btn-primary btn-block">Get Design Package</a>
+          </div>
+          
+          <!-- Service Card 3 -->
+          <div class="service-card" id="serviceCardRefresh">
+            <div>
+              <div class="service-meta">
+                <span class="service-badge">Hands-On Sourcing</span>
+                <span class="service-price">From $500</span>
+              </div>
+              <h3 class="title-sm service-title">Room Styling & Refresh</h3>
+              <p class="service-desc">Perfect for clients seeking visual elevation. Transform your room using a blend of your existing items and curated high-end additions.</p>
+            </div>
+            
+            <div class="service-inclusions">
+              <h4 class="inclusion-title">Flexible Options</h4>
+              <ul class="inclusion-list">
+                <li class="inclusion-item">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <strong>Essential Styling ($500)</strong>: Styling session using what you already have
+                </li>
+                <li class="inclusion-item">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <strong>Signature Refresh ($750)</strong>: In-home styling plus curated shop additions
+                </li>
+                <li class="inclusion-item">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <strong>Full Transformation ($1,100)</strong>: Comprehensive styling, sourcing, and setup
+                </li>
+              </ul>
+            </div>
+            
+            <a href="#contact" class="btn btn-primary btn-block">Select Room Refresh</a>
+          </div>
+          
+          <!-- Service Card 4 -->
+          <div class="service-card" id="serviceCardFull">
+            <div>
+              <div class="service-meta">
+                <span class="service-badge">Premium Full-Service</span>
+                <span class="service-price">Custom Quote</span>
+              </div>
+              <h3 class="title-sm service-title">Full-Service Coordination</h3>
+              <p class="service-desc">Perfect for busy clients looking for a completely stress-free, done-for-you transformation experience from design concept to final reveal.</p>
+            </div>
+            
+            <div class="service-inclusions">
+              <h4 class="inclusion-title">What's Included</h4>
+              <ul class="inclusion-list">
+                <li class="inclusion-item">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  End-to-end design conceptualization and layout plans
+                </li>
+                <li class="inclusion-item">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Personal shopping, order management, and deliveries
+                </li>
+                <li class="inclusion-item">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Hands-on installation, framing, vendor liaison, and final styling
+                </li>
+              </ul>
+            </div>
+            
+            <a href="#contact" class="btn btn-gold btn-block">Request Custom Scope</a>
+          </div>
+          
+        </div>
+
+        <!-- Home Staging Packages Subsections -->
+        <div style="margin-top: 100px; text-align: center;">
+          <span class="hero-subtitle">Elevate Property Value</span>
+          <h2 class="title-md">Professional Home Staging</h2>
+          <div class="divider-gold center"></div>
+          <p class="text-intro" style="margin: 0 auto 40px auto; max-width: 750px;">A highly strategic home staging service designed to elevate property presentations, highlight key structural features, and create beautiful, listing-ready interiors that resonate emotionally with buyers.</p>
+          
+          <div class="staging-tiers">
+            
+            <div class="tier-card" id="stagingTierConsultation">
+              <span class="tier-name">Staging Plan</span>
+              <div class="tier-price">$250 - $350</div>
+              <p class="tier-desc">Comprehensive walkthrough recommendations, furniture placement plans, and tailored styling shopping lists for listing photos.</p>
+            </div>
+            
+            <div class="tier-card" id="stagingTierPartial">
+              <span class="tier-name">Partial Staging</span>
+              <div class="tier-price">$450 - $750</div>
+              <p class="tier-desc">A focused transformation of up to 2-3 key rooms (Living, Dining, Primary bedroom) utilizing existing furniture plus light styling.</p>
+            </div>
+            
+            <div class="tier-card" id="stagingTierFull">
+              <span class="tier-name">Full Listing Staging</span>
+              <div class="tier-price">$800 - $1,500+</div>
+              <p class="tier-desc">Done-for-you whole-house staging coordination. Strategic layout arrangements, layered decorative accents, and picture-ready setup.</p>
+            </div>
+            
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </div>
+
+  <!-- ====================================================
+       PAGE VIEW: ABOUT
+       ==================================================== -->
+  <div class="page-view" id="about">
+    <section class="section">
+      <div class="container">
+        
+        <div class="about-grid">
+          
+          <div class="about-img-frame">
+            <img src="images/about_profile.png" alt="Quion Wattree - Interior Decorator and Creative Director at Styled By Q" class="about-img">
+          </div>
+          
+          <div class="about-details">
+            <span class="about-role">Interior Decorator & Creator</span>
+            <h1 class="title-md about-name">Meet Quion Wattree</h1>
+            <div class="divider-gold"></div>
+            
+            <p class="about-desc">Welcome! I believe that a beautifully decorated home has the unique power to transform our daily lives, lift our emotions, and bring comfort and clarity to our spirits.</p>
+            
+            <p class="about-desc" style="font-size: 0.95rem; color: var(--text-secondary);">At <strong>Styled by Q</strong>, I specialize in crafting warm, cohesive, and intentional interiors. Whether refreshing a cozy family fireplace, staging a property to maximize its listing value, or completely transforming an empty room, I approach every home with care, detail, and dedication.</p>
+            
+            <p class="about-desc" style="font-size: 0.95rem; color: var(--text-secondary);">Great decorating starts with listening to your needs and understanding your lifestyle. Together, we will bring your styling vision to life in a way that feels natural, highly cohesive, and uniquely yours.</p>
+            
+            <div class="about-signature-card" id="aboutSignatureCard">
+              <div>
+                <div class="sig-name">Quion Wattree</div>
+                <div class="sig-role">Founder, Styled by Q</div>
+              </div>
+              <a href="#contact" class="sig-contact-btn">Let's Work Together</a>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+    </section>
+  </div>
+
+  <!-- ====================================================
+       PAGE VIEW: TESTIMONIALS (PORTFOLIO)
+       ==================================================== -->
+  <div class="page-view" id="testimonials">
+    <section class="section">
+      <div class="container">
+        
+        <div class="portfolio-header">
+          <span class="hero-subtitle">Our Work</span>
+          <h1 class="title-md">Transformative Designs</h1>
+          <div class="divider-gold center"></div>
+          <p class="text-intro" style="margin: 0 auto;">Drag the center handle on the interactive slider below to see how we transform cluttered, dated rooms into sleek, bright, and functional spaces.</p>
+        </div>
+        
+        <!-- Interactive Before/After Images Slider -->
+        <div class="slider-showcase">
+          
+          <!-- Fireplace Slider Item -->
+          <div class="slider-item" id="fireplaceSliderItem">
+            <h3 class="slider-showcase-title">Fireplace Refresh & Update</h3>
+            <div class="slider-container" id="fireplaceSlider" style="--slider-pos: 50%;">
+              <!-- Before Image -->
+              <img src="images/fireplace_before.png" alt="Dated red brick fireplace with dark brown wood paneling" class="slider-image before">
+              <span class="slider-badge before-label">Before</span>
+              
+              <!-- After Image (reveal via clip-path) -->
+              <img src="images/fireplace_after.png" alt="Beautifully updated white-painted brick fireplace and floating light oak wood mantle" class="slider-image after">
+              <span class="slider-badge after-label">After</span>
+              
+              <!-- Draggable Handle -->
+              <div class="slider-handle">
+                <div class="slider-handle-button" aria-label="Drag slider to view before and after transformation">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Kitchen Slider Item (Hidden by default) -->
+          <div class="slider-item" id="kitchenSliderItem" style="display: none;">
+            <h3 class="slider-showcase-title">Signature Kitchen Remodel</h3>
+            <div class="slider-container" id="kitchenSlider" style="--slider-pos: 50%;">
+              <!-- Before Image -->
+              <img src="images/kitchen_before.png" alt="Outdated kitchen with dark wood oak cabinets and laminate countertops" class="slider-image before">
+              <span class="slider-badge before-label">Before</span>
+              
+              <!-- After Image -->
+              <img src="images/kitchen_after.png" alt="Remodeled modern kitchen with cream shaker cabinets, quartz countertops and brass fixtures" class="slider-image after">
+              <span class="slider-badge after-label">After</span>
+              
+              <!-- Draggable Handle -->
+              <div class="slider-handle">
+                <div class="slider-handle-button" aria-label="Drag slider to view before and after transformation">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Tabbed Switchers for the Slider -->
+          <div class="slider-controls">
+            <button class="slider-tab active" data-target="fireplaceSliderItem" id="sliderTabFireplace">Fireplace Update</button>
+            <button class="slider-tab" data-target="kitchenSliderItem" id="sliderTabKitchen">Kitchen Remodel</button>
+          </div>
+          
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Testimonials Slider Section -->
+    <section class="section testimonials-section">
+      <div class="container">
+        
+        <div class="testimonial-slider">
+          
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card active" id="testimonial1">
+            <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+            <p class="testimonial-text">“A shout-out to Quion for her exceptional professionalism and skills. We greatly appreciate the simple, standard way she transformed our home. Every detail was designed just for us—cozy and functional. Now our house is much more than a mere shelter; it lifts us emotionally and spiritually.”</p>
+            <div class="testimonial-author">Sharon | Homeowner</div>
+          </div>
+          
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card" id="testimonial2">
+            <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+            <p class="testimonial-text">“Quion brought so much care, detail, and intention to our staging consultation. She helped highlight the best elements of our living room. It was listed and sold in less than a week with absolute confidence!”</p>
+            <div class="testimonial-author">Kesia | Realtor Client</div>
+          </div>
+          
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card" id="testimonial3">
+            <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+            <p class="testimonial-text">“I booked the Signature Room Refresh for my master bedroom and the results blew me away. She styled what I already had in such a creative way, blending curated accents seamlessly. A warm, peaceful escape!”</p>
+            <div class="testimonial-author">Andrea | Styling Client</div>
+          </div>
+          
+          <!-- Slider Dot Controls -->
+          <div class="testimonial-nav">
+            <span class="testimonial-dot active" data-slide="0"></span>
+            <span class="testimonial-dot" data-slide="1"></span>
+            <span class="testimonial-dot" data-slide="2"></span>
+          </div>
+          
+        </div>
+        
+      </div>
+    </section>
+  </div>
+
+  <!-- ====================================================
+       PAGE VIEW: CONTACT
+       ==================================================== -->
+  <div class="page-view" id="contact">
+    <section class="section">
+      <div class="container">
+        
+        <div class="contact-grid">
+          
+          <!-- Contact Details Info Card -->
+          <div class="contact-info">
+            <span class="hero-subtitle">Get In Touch</span>
+            <h1 class="title-md">Schedule a Consultation</h1>
+            <div class="divider-gold"></div>
+            
+            <p class="text-intro" style="font-size: 0.95rem; margin-bottom: 30px;">Ready to create a space you love coming home to? Email directly, or complete the quick visual booking form to submit details regarding your space.</p>
+            
+            <div class="contact-card">
+              
+              <div class="contact-method" id="contactMethodEmail">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="contact-method-title">Direct Booking Email</h4>
+                  <a href="mailto:sweethomej3q@gmail.com" class="contact-method-value" id="contactEmailLink">sweethomej3q@gmail.com</a>
+                </div>
+              </div>
+              
+              <div class="contact-method" id="contactMethodScope">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="contact-method-title">Booking Hours</h4>
+                  <div class="contact-method-value">Monday – Saturday, by appointment</div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          
+          <!-- Contact Form Container -->
+          <div class="contact-form-container">
+            <div class="form-header">
+              <h2 class="title-sm form-title">Sourcing Your Vision</h2>
+              <p class="form-subtitle">Tell me more about your space and decorating needs.</p>
+            </div>
+            
+            <!-- Custom Dynamic Form -->
+            <form id="contactForm" role="form">
+              
+              <div class="form-group">
+                <label for="clientName" class="form-label">Full Name</label>
+                <input type="text" id="clientName" class="form-control" placeholder="e.g. Sharon Smith" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="clientEmail" class="form-label">Email Address</label>
+                <input type="email" id="clientEmail" class="form-control" placeholder="e.g. sharon@example.com" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="clientService" class="form-label">Selected Styling Service</label>
+                <select id="clientService" class="form-control" required>
+                  <option value="" disabled selected>Select a package...</option>
+                  <option value="Decorating Consultation">Decorating Consultation — $200</option>
+                  <option value="Virtual Design Package">Virtual Design Package — $350–$500</option>
+                  <option value="Room Styling & Refresh">Room Styling & Refresh — From $500</option>
+                  <option value="Home Staging">Strategic Property Staging — From $250</option>
+                  <option value="Full-Service Coordination">Full-Service Coordination — Custom Scope</option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <label for="clientDetails" class="form-label">Project Details (Room Type, Budget, Timeline)</label>
+                <textarea id="clientDetails" class="form-control" placeholder="Tell us about the room, your design style, current furniture, or any special questions..." required></textarea>
+              </div>
+              
+              <button type="submit" class="btn btn-primary btn-block" style="width: 100%; border: none;">Submit Consultation Request</button>
+              
+            </form>
+            
+            <!-- Success Response Screen -->
+            <div class="form-success-card" id="successCard">
+              <div class="success-icon">✓</div>
+              <h3 class="title-sm">Thank You<span id="successClientName"></span>!</h3>
+              <p style="color: var(--text-secondary); margin-bottom: 24px; font-weight: 300; font-size: 0.95rem;">Your consultation request has been successfully received. Quion will review the project details and reach out via email within 24–48 hours to schedule your session.</p>
+              <a href="#home" class="btn btn-outline" style="font-size: 0.75rem;">Return Home</a>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+    </section>
+  </div>
+
+  <!-- Unified Premium Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <div class="footer-brand">
+          <a href="#home" class="logo">
+            Styled by Q<span>Interiors</span><span class="logo-dot">.</span>
+          </a>
+          <p class="footer-brand-desc">Curating cozy, beautiful, and highly functional spaces where daily style meets ultimate comfort, making every house feel like a home.</p>
+        </div>
+        
+        <div>
+          <h4 class="footer-title">Explore</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#testimonials">Portfolio & Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 class="footer-title">Get in Touch</h4>
+          <div class="footer-contact-details">
+            <p><strong>Quion Wattree</strong><br>Interior Decorator</p>
+            <p><a href="mailto:sweethomej3q@gmail.com" style="color: var(--accent-gold); font-weight: 500;">sweethomej3q@gmail.com</a></p>
+            <p>Serving Chicago and Virtual Clients Worldwide</p>
+          </div>
+        </div>
+        
+      </div>
+      
+      <div class="footer-bottom">
+        <div class="footer-copy">&copy; 2026 Styled by Q. All rights reserved. Designed with intention.</div>
+        <div class="footer-meta-links">
+          <a href="#services">Privacy Policy</a>
+          <a href="#services">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
